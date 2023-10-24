@@ -1,0 +1,108 @@
+
+body{
+    background-color: #191A1E;
+    
+}
+
+.page {
+    width: 780px;
+    margin: auto;
+    font-family: 'source sans Pro', 'Calibri', Verdana, 'Geneva', Tahoma, sans-serif;
+    font-size: 16px;
+    border: 5px solid #3388CC;
+    border-radius: 10px;
+    box-shadow: 2px 4px 3px black;
+    padding: 20px;
+    background-color: white;
+
+}
+#coordonnées {
+    margin-top: 0;
+}
+.infophoto{
+    height: 150px;
+}
+
+.info{
+    float: left;
+}
+
+.photo{
+    float: right;
+    font: 600;
+
+}
+
+.section{
+    margin-bottom: 50px;
+    text-align: justify;
+}
+
+.sec-gauche {
+    float: left;
+    font-weight: bold;
+    font-size: 19px;
+    
+}
+
+.sec-droite{
+    margin-left: 150px;
+    margin-top: 40px;
+}
+
+h2{
+    font-size: 28px;
+    color: #3388BB;
+    border-bottom: 3px solid #3388DD
+}
+
+.titre{
+    font-weight: bold;
+    font-size: 19px;
+}
+
+#exp-gauche p{
+    margin-bottom: 71.5px;
+    
+}
+
+#informatique-droite p{
+    margin-left: 300px;
+    font-size: 16px;
+    
+}
+
+#langues {
+    font-weight: normal;
+    font-size: 16px;
+}
+
+#interet-gauche {
+    font-weight: normal;
+    font-size: 16px;
+}
+
+#interet-droite p{
+    margin-left: 300px;
+}
+
+#SIO {
+    line-height: 20px;
+}
+
+strong {
+    font-size: 22px;
+}
+@media print {
+
+    body {
+        width: 25cm;
+        height: 29.7cm;
+        margin: 30mm 45mm 30mm 45mm;
+    }
+    
+    .page {
+        padding: 0;
+    }
+}
+

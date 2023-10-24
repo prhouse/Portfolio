@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="robots" content="noindex"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Portfolio LACHATER Joé</title>
+    <link rel="stylesheet" href="css/accueil.css" />
+</head>
+<body>
+    <nav>
+        <div class="profile">
+            <img src="image/photo-cv.png" alt="profile photo">
+            <h1>Joé Lachater</h1>
+        </div>
+        <ul>
+            <li class="ordi"><a href="">Mes projets</a>
+                <ul class="sous">
+                    <li><a href onclick="window.open('binaire en html.html');">Convertisseur binaire</a></li>
+                    <li><a href onclick="window.open('nombre mystere.html');">Jeu du nombre mystère</a></li>
+                    <li><a href onclick="window.open('loto.html');">Loto</a></li>
+                </ul>
+            </li>
+            <li class="ordi"><a href onclick="window.open('CV de Lachater Joé.html');">Mon CV</a></li>
+            <li id="phone"><label for="mobile"><img src="image/menu.png" alt="test"></label></li>
+            <input type="checkbox" id="mobile" role="button">
+                <ul class="sous">
+                    <li><a href onclick="window.open('CV de Lachater Joé.html');">Mon CV</a></li>
+                    <li><a href onclick="window.open('binaire en html.html');">Convertisseur binaire</a></li>
+                    <li><a href onclick="window.open('nombre mystere.html');">Jeu du nombre mystère</a></li>
+                    <li><a href onclick="window.open('loto.html');">Loto</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+    <section class="page-content">
+        <header>
+            <h1>BONJOUR, JE SUIS LACHATER JOE.</h1>
+            <p>Un étudiant en BTS SIO cherchant une alternance en développement informatique.</p>
+        </header>
+
+        <section class="presentation-image">
+            <img src="image/main-image.jpg" alt="presentation image">
+        </section>
+        <section class="projects-section">
+            <h1>Projets réalisés</h1>
+            <div class="projects">
+                <div class="project">
+                    <h4>Jeu du nombre mystère</h4>
+                    <p class="description">
+                        Un mini-jeu où vous devez trouver le nombre tiré entre 1 et 100 par l'ordinateur.
+                    </p>
+                </div>
+                <div class="project">
+                    <h4>Convertisseur binaire</h4>
+                    <p class="description">
+                        Un convertisseur de nombre entier en binaire.
+                    </p>
+                </div>
+                <div class="project">
+                    <h4>Loto</h4>
+                    <p class="description">
+                        Un jeu où vous devez trouver des chiffres tirés au hasard et dans le bon ordre.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <footer>
+        <div class="colonne">
+            <h3>Contact</h3>
+            <p><a href="mailto:joe.lachater@gmail.com">joe.lachater@gmail.com</a></p>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400&family=Oswald:wght@300&display=swap');
+
+body {
+    background-color: #191A1E;
+    width: 780px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 16px;
+    padding: 20px;
+    color: #1083f0;
+    margin: 0 auto;
+    text-align: center;
+    
+    
+    
+}
+body p {
+    text-align: left;
+}
+.test {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+ul {
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
+    padding: 0;
+    justify-content: center;
+    
+}
+li {
+    
+    margin: 20px;
+    
+    
+    
+}
+input {
+    width: 25px;
+    height: 30px;
+    padding: 0;
+    padding-left: 50%;
+    
+    
+    
+    
+    
+    
+
+}
+#info {
+    
+    max-width: 780px;
+    text-align: left;
+    margin: 0;
+    position: absolute;
+
+}
+.testt {
+    padding-top: 100px;
+    margin: 0;
+    
+}
+
+.true {
+    background-color: rgb(92, 255, 92);
+}
+
+.false {
+    background-color: rgb(194, 44, 44);
+}
+.confirmation {
+    background-color: orange;
+}
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-size: 4vw;
+}
+
+@media screen and (max-width: 810px){
+    body {
+        border: none;
+        width: auto;
+        font-size: 14px;
+        box-shadow: none;
+    }
+    input {
+        width: 1em;
+        height: 1em;
+    }
+    #info {
+        width: auto;
+        text-align: left;
+        padding-right: 20px;
+        
+    }
+    
+
+}
