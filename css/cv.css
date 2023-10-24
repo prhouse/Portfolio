@@ -107,7 +107,21 @@ strong {
 }
 @media screen and (max-width: 780px) {
     html {
-        scale: 45%;
+        scale: 71%; 
     }
+    
+}
+@media screen and (max-width: 599px) {
+    html {
+        scale: 48%;
+    }
+
+}
+@media screen and (max-width: 419px) {
+    html {
+        scale: 44%;
+        
+    }
+
 }
 
