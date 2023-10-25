@@ -155,6 +155,13 @@ nav input[type=checkbox]:checked+ul {
     margin-right: 20px;
     justify-content: center;
 }
+.page-content a {
+    text-decoration: none;
+    color: black;
+}
+.page-content a:hover {
+    color: orange;
+}
 .page-content .projects-section .projects .project h4 {
     margin: 0;
 }
