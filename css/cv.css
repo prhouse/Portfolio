@@ -1,7 +1,6 @@
 
 body{
     background-color: #191A1E;
-    
 }
 
 .page {
@@ -14,41 +13,15 @@ body{
     box-shadow: 2px 4px 3px black;
     padding: 20px;
     background-color: white;
-
-}
-#coordonnées {
-    margin-top: 0;
-}
-.infophoto{
-    height: 150px;
-}
-
-.info{
-    float: left;
-}
-
-.photo{
-    float: right;
-    font: 600;
-
-}
-
-.section{
-    margin-bottom: 50px;
-    text-align: justify;
-}
-
-.sec-gauche {
-    float: left;
-    font-weight: bold;
-    font-size: 19px;
     
 }
 
-.sec-droite{
-    margin-left: 150px;
-    margin-top: 40px;
+.infophoto{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
+
 
 h2{
     font-size: 28px;
@@ -56,53 +29,76 @@ h2{
     border-bottom: 3px solid #3388DD
 }
 
-.titre{
+
+p {
+    margin: 0;
+}
+
+.section{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    margin-bottom: 20px;
+}
+
+.description{
+    margin-left: 80px;
+}
+
+
+.date{
     font-weight: bold;
     font-size: 19px;
 }
 
-#exp-gauche p{
-    margin-bottom: 71.5px;
-    
+
+.descriptionBold{
+    font-weight: bold;
+    font-size: 19px;
 }
 
-#informatique-droite p{
-    margin-left: 300px;
-    font-size: 16px;
-    
+.competences{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: space-between;
+}
+.informatique{
+    margin-right: 200px;
 }
 
-#langues {
-    font-weight: normal;
-    font-size: 16px;
-}
 
-#interet-gauche {
-    font-weight: normal;
-    font-size: 16px;
-}
-
-#interet-droite p{
-    margin-left: 300px;
-}
-
-#SIO {
-    line-height: 20px;
-}
-
-strong {
-    font-size: 22px;
-}
 @media print {
-
     body {
-        width: 25cm;
-        height: 29.7cm;
-        margin: 30mm 45mm 30mm 45mm;
-    }
-    
-    .page {
+        background-color: white;
+        margin: 0;
         padding: 0;
+        font-size: 100%;
+    }
+
+    .page {
+        width: 210mm;
+        /* Largeur A4 */
+        height: 297mm;
+        /* Hauteur A4 */
+        margin: 0 auto;
+        /* Centre horizontalement */
+        padding: 10mm;
+        /* Marge intérieure */
+        border: none;
+        box-shadow: none;
+        background-color: white;
+        font-size: 75%;
+        
+    }
+
+    .page {
+        border: none;
+        box-shadow: none;
+    }
+
+    {
+        overflow: visible !important;
     }
 }
 @media screen and (max-width: 780px) {
