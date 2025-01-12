@@ -1,78 +1,144 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta name="robots" content="noindex"/>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Portfolio LACHATER Joé</title>
-    <link rel="stylesheet" href="css/accueil.css" />
-</head>
-<body>
-    <nav>
-        <div class="profile">
-            <img src="image/photo-cv.png" alt="profile photo">
-            <h1>Joé Lachater</h1>
-        </div>
-        <ul>
-            <li class="ordi"><a href="">Mes projets</a>
-                <ul class="sous">
-                    <li><a href onclick="window.open('binaire en html.html');">Convertisseur binaire</a></li>
-                    <li><a href onclick="window.open('nombre mystere.html');">Jeu du nombre mystère</a></li>
-                    <li><a href onclick="window.open('loto.html');">Loto</a></li>
-                </ul>
-            </li>
-            <li class="ordi"><a href onclick="window.open('CV de Lachater Joé.html');">Mon CV</a></li>
-            <li id="phone"><label for="mobile"><img src="image/menu.png" alt="test"></label></li>
-            <input type="checkbox" id="mobile" role="button">
-                <ul class="sous">
-                    <li><a href="CV de Lachater Joé.html">Mon CV</a></li>
-                    <li><a href="binaire en html.html">Convertisseur binaire</a></li>
-                    <li><a href="nombre mystere.html">Jeu du nombre mystère</a></li>
-                    <li><a href="loto.html">Loto</a></li>
-                </ul>
-            </li>
-        </ul>
-    </nav>
-
-    <section class="page-content">
-        <header>
-            <h1>BONJOUR, JE SUIS LACHATER JOE.</h1>
-            <p>Un étudiant en BTS SIO cherchant une alternance en développement informatique.</p>
-        </header>
-
-        <section class="presentation-image">
-            <img src="image/main-image.jpg" alt="presentation image">
-        </section>
-        <section class="projects-section">
-            <h1>Projets réalisés</h1>
-            <div class="projects">
-                <div class="project">
-                    <h4><a href="nombre mystere.html">Jeu du nombre mystère</a></h4>
-                    <p class="description">
-                        Un mini-jeu où vous devez trouver le nombre tiré entre 1 et 100 par l'ordinateur.
-                    </p>
+<html>
+    <head>
+        <meta name="robots" content="noindex" />
+        <title>CV de Lachater Joé</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="css/cv.css" />
+    </head>
+    <body>
+        <div class = "page">
+            <div class = "infophoto">
+                <div class = "info">
+                    <p id="coordonnées"><strong>LACHATER Joé</strong><br/>
+                    Né le 23 février 1995<br/>
+                    38000 Grenoble<br/>
+                    06 52 57 43 91<br/>
+                    <a href="mailto:joe.lachater@gmail.com">joe.lachater@gmail.com</a><br/>
+                    Permis B</p>
                 </div>
-                <div class="project">
-                    <h4><a href="binaire en html.html">Convertisseur binaire</a></h4>
-                    <p class="description">
-                        Un convertisseur de nombre entier en binaire.
-                    </p>
-                </div>
-                <div class="project">
-                    <h4><a href="loto.html">Loto</a></h4>
-                    <p class="description">
-                        Un jeu où vous devez trouver des chiffres tirés au hasard et dans le bon ordre.
-                    </p>
+                <div class = "photo">
+                    <img src = "image/photo-cv.png" alt = "Photo CV Lachater Joé"/>
                 </div>
             </div>
-        </section>
-    </section>
-
-    <footer>
-        <div class="colonne">
-            <h3>Contact</h3>
-            <p><a href="mailto:joe.lachater@gmail.com">joe.lachater@gmail.com</a></p>
+            <div>
+                <H2>Formations et diplômes</H2>
+                <div class="section">
+                    <div class="date">
+                        <p>2023 - 2025</p>
+                    </div>
+                    <div class="description">
+                        <p class="descriptionBold">Actuellement en formation BTS SIO (option slam)</p>
+                        <p>Lycée Aristide Bergès, (38)</p>
+                    </div>
+                </div>
+                <div class="section">
+                    <div class="date">
+                        <p>2022 - 2023</p>
+                    </div>
+                    <div class="description">
+                        <p class="descriptionBold">Diplôme d'accès aux études universitaires (D.A.E.U) option B - mention BIEN</p>
+                        <p>Université Grenoble Alpes, (38)</p>
+                    </div>
+                    
+                </div>
+            </div>
+            <div>
+                <h2>Compétences linguistiques et informatiques</h2>
+                <div class="competences">
+                    <div class="langue">
+                        <p class="descriptionBold">Langues</p>
+                        <p>Français : langue natale</p>
+                        <p>Anglais : niveau B2</p>
+                    
+                    </div>
+                    <div class="informatique">
+                        <p class="descriptionBold">Informatique</p>
+                        <p>Java</p>
+                        <p>C#</p>
+                        <p>PHP</p>
+                        <p>SQL</p>
+                        <p>Python</p>
+                        <p>JavaScript</p>
+                        <p>HTML/CSS</p>
+                        <p>Pack Office</p>
+                    </div>
+                </div> 
+            </div>
+            <div>
+                <H2>Expériences professionnelles</H2>
+                <div class="section">
+                    <div class="date">
+                        <p>2024 - 2025</p>
+                    </div>
+                    <div class="description">
+                        <p class="descriptionBold">Technicien informatique [Alternance], Groupe du Mail, Grenoble (38)</p>
+                        <p>Support informatique</p>
+                        <p>Développement d'une solution de géstion de stock</p>
+                        <p>Installation parc informatique</p>
+                    </div>
+                </div>
+                <div class = "section">
+                    <div class="date">
+                        <p>2022 - 2023</p>
+                    </div>
+                    <div class="description">
+                        <p class="descriptionBold">Responsable en supermarché, Carrefour City, Grenoble (38)</p>
+                        <p>Responsable de rayon</p>
+                        <p>Management d'une équipe de 5 personnes</p>
+                        <p>Gestion des stocks</p>
+                    </div>
+                </div>
+                <div class="section">
+                    <div class="date">
+                        <p>2021 - 2022</p>
+                    </div>
+                    <div class="description">
+                        <p class="descriptionBold">Employé polyvalent, Elior, Grenoble (38)</p>
+                        <p>Elaboration des plateaux repas des patients</p>
+                        <p>Nettoyage plan de travail</p>
+                        <p>Distribution des plateaux repas</p>
+                    </div>
+                </div>
+                <div class="section">
+                    <div class="date">
+                        <p>2020 - 2021</p>
+                    </div>
+                    <div class="description">
+                        <p class="descriptionBold">Adjoint en supermarché, Leader Price, Grenoble (38)</p>
+                        <p>Elaboration et réception des commandes</p>
+                        <p>Gestion des caisses</p>
+                        <p>Management d'une équipe de 3 personnes</p>
+                        <p>Gestion des stocks</p>
+                    </div>
+                </div>
+                <div class="section">
+                    <div class="date">
+                        <p>2015 - 2020</p>
+                    </div>
+                    <div class="description">
+                        <p class="descriptionBold">Employé polyvalent, Total Access, Seyssinet-Pariset (38)</p>
+                        <p>Réception et gestion des stocks de carburant</p>
+                        <p>Encaissement des clients</p>
+                        <p>Accueil des clients</p>
+                    </div>
+                </div>
+            </div>
+            <div class="fin">
+                <h2>Centres d'intérêt</h2>
+                <div class="competences">
+                    <div class="langue">
+                        <p class="descriptionBold">Sports</p>
+                        <p>Echecs, randonnée, natation</p>
+                    </div>
+                    <div class="informatique">
+                        <p class="descriptionBold">Loisirs</p>
+                        <p>Cinéma, voyages</p>
+                    </div>
+                </div>
+            </div>
+            
         </div>
-    </footer>
-</body>
+    </body>
 </html>
